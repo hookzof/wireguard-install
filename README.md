@@ -85,7 +85,7 @@ EOF
 5. Install the service:
 
 ```bash
-sudo cloudflared service install
+sudo cloudflared service install --legacy
 ```
 
 6. The service should now be running on localhost. Test it by querying for a DNS record:
