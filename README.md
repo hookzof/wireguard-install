@@ -101,6 +101,7 @@ dig +short @127.0.0.1 tau.gr AAAA
 ```bash
 net.ipv4.ip_forward = 1
 net.ipv6.conf.all.forwarding = 1
+net.ipv4.icmp_echo_ignore_all = 1
 net.ipv4.conf.all.route_localnet = 1
 ```
 
